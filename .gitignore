@@ -4,3 +4,4 @@ venv/
 .vitepress/cache
 /markdown-examples.md
 /api-examples.md
+.idea

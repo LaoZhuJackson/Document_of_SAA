@@ -8,15 +8,15 @@
 * 遇到了全新的问题→提一个[issue](https://github.com/LaoZhuJackson/SnowbreakAutoAssistant/issues)
   :::
 ## 无法访问尘白公告api，无法访问gitee获取坐标更新
-![代理报错](/proxy_error.png)
+![proxy_error.png](/issue/img/proxy_error.png)
 ::: tip
 出现这个报错是因为你电脑开了代理而没有在SAA上设置代理端口导致SAA无法访问这两个网站
 
 前往设置页面设置你的代理端口，重启SAA就能获取更新了
-![proxy_setting.png](/proxy_setting.png)
+![proxy_setting.png](/issue/img/proxy_setting.png)
 :::
 ## SAA刷体力时日志出现`WARNING - 'NoneType' object has no attribute 'split'`报错
-![nonetype_error_power.png](/nonetype_error_power.png)
+![nonetype_error_power.png](/issue/img/nonetype_error_power.png)
 ::: tip
 出现这个报错是因为SAA版本更新后用户旧版的config.json在新版不再适用
 
