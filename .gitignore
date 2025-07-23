@@ -1,0 +1,6 @@
+/node_modules/
+__pycache__/
+venv/
+.vitepress/cache
+/markdown-examples.md
+/api-examples.md
