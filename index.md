@@ -6,20 +6,23 @@ hero:
   name: "SAA文档站"
   text: "更适合中国宝宝体质"
   tagline: 在这寻找你想要的答案
+  image:
+    src: /asset/hero.png
+    alt: Logo
   actions:
     - theme: brand
-      text: 使用教程
-      link: /quick_start
+      text: 开始使用
+      link: /feature/daily
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 常见问题
+      link: /issue/Q&A
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 🎯 日常收菜
+    details: 📦 材料副本 / 🧩 角色碎片 / ⚔️ 拟境扫荡 / 🛒 商店购买
+  - title: 🎮 工具辅助
+    details: 🎣 钓鱼 / 💝 猜心对局 / 🔍 信源解析 / 💧 心动水弹
+  - title: ⌨️ 实时触发器
+    details: ⭐ 自动采集 / ⚡ 妮塔E自动qte
 ---
 

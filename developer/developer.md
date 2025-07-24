@@ -1,3 +1,7 @@
+---
+outline: deep
+---
+
 # 模块开发
 ::: details 项目结构
 ```text
@@ -201,14 +205,14 @@ img = np.frombuffer(bmpstr, dtype=np.uint8).reshape((bmpinfo['bmHeight'], bmpinf
 2. 具体结构介绍
 
 ::: warning 1.init()
-init需要传入auto这个原子类的实例，之后调用操作都是通过`auto.click_element()`等方式，另一个要传入的是logger，用于展示日志到对应控件
+init需要传入`auto`这个原子类的实例，之后调用操作都是通过`auto.click_element()`等方式，另一个要传入的是`logger`，用于展示日志到对应控件
 ```python
 def __init__(self, auto, logger):
   super().__init__()
   self.mode = None
   self.drink_times = None
-  self.auto = auto
-  self.logger = logger
+  self.auto = auto # [!code focus]
+  self.logger = logger # [!code focus]
   self.enter_success = False
   self.select_list = ['分析员', '析员', '天降鸿运', '多喝热水']
 
@@ -281,8 +285,29 @@ def _initWidget(self):
 绑定点击跳转事件
 ```python
 def _connect_to_slot(self):
-  ...
-  self.PushButton_start_drink.clicked.connect(self.on_drink_button_click)
+    # 反向链接
+    self.stackedWidget.currentChanged.connect(self.onCurrentIndexChanged)
+    # 按钮信号
+    self.PushButton_start_fishing.clicked.connect(self.on_fishing_button_click)
+    self.PushButton_start_action.clicked.connect(self.on_action_button_click)
+    self.PushButton_start_jigsaw.clicked.connect(self.on_jigsaw_button_click)
+    self.PushButton_start_water_bomb.clicked.connect(self.on_water_bomb_button_click)
+    self.PushButton_start_alien_guardian.clicked.connect(self.on_alien_guardian_button_click)
+    self.PushButton_start_maze.clicked.connect(self.on_maze_button_click)
+    self.PushButton_start_massaging.clicked.connect(self.on_massaging_button_click)
+    self.PushButton_start_drink.clicked.connect(self.on_drink_button_click) # [!code focus]
+    
+    # 链接各种需要保存修改的控件
+    self._connect_to_save_changed()
+
+    self.PrimaryPushButton_get_color.clicked.connect(self.adjust_color)
+    self.PushButton_reset.clicked.connect(self.reset_color)
+
+    self.LineEdit_fish_key.editingFinished.connect(lambda: self.update_fish_key(self.LineEdit_fish_key.text()))
+
+    signalBus.jigsawDisplaySignal.connect(self.paint_best_solution)
+    signalBus.updatePiecesNum.connect(self.update_pieces_num)
+    signalBus.updateFishKey.connect(self.update_fish_key)
 ```
 以下两个函数是每个模块都存在的，看`app/view/additional_features.py`代码你会发现每个模块都有这两个函数，用于对接线程调用以及实现开始和结束逻辑，只需要复制粘贴然后改成对应的变量名就好了
 
