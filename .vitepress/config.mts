@@ -29,7 +29,6 @@ export default defineConfig({
 
         nav: [
           { text: '主页', link: '/' },
-          { text: '常见问题', link: '/issue/Q&A' },
           {
             text: '开始使用',
             items: [
@@ -67,6 +66,7 @@ export default defineConfig({
             text: '开始使用',
             collapsed: false,
             items: [
+              { text: '前置设置', link: '/feature/presetting' },
               { text: '日常收菜', link: '/feature/daily' },
               { text: '工具辅助', link: '/feature/tools' },
               { text: '实时触发器', link: '/feature/trigger' }
@@ -90,7 +90,7 @@ export default defineConfig({
           }
         ],
 
-        logo: '/asset/logo.png',
+        logo: '/logo.png',
         socialLinks: [
           { icon: 'github', link: 'https://github.com/LaoZhuJackson/SnowbreakAutoAssistant' }
         ],
@@ -99,10 +99,10 @@ export default defineConfig({
           text: '在 GitHub 上编辑此页'
         },
         // 页脚
-        footer: {
-          message: '基于 MIT 许可发布',
-          copyright: 'Copyright © 2025 SAA Team'
-        }
+        // footer: {
+        //   message: '基于 MIT 许可发布',
+        //   copyright: 'SAA'
+        // }
       }
     }
   },
