@@ -9,6 +9,12 @@ export default defineConfig({
   cleanUrls: true,
   metaChunk: true,
 
+  head: [
+    [
+      'link', {rel: 'icon',type: 'image/x-icon',href: '/logo.ico'}
+    ],
+  ],
+
   locales: {
     root: {
       label: '简体中文',
@@ -18,7 +24,6 @@ export default defineConfig({
 
       themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
-
         lastUpdated: {
           text: '最后更新于',
           formatOptions: {
@@ -32,6 +37,7 @@ export default defineConfig({
           {
             text: '开始使用',
             items: [
+              { text: '前置设置', link: '/feature/presetting' },
               { text: '日常收菜', link: '/feature/daily' },
               { text: '工具辅助', link: '/feature/tools' },
               { text: '实时触发器', link: '/feature/trigger' }
@@ -90,7 +96,7 @@ export default defineConfig({
           }
         ],
 
-        logo: '/logo.png',
+        logo: { src: '/logo.png', width: 24, height: 24 },
         socialLinks: [
           { icon: 'github', link: 'https://github.com/LaoZhuJackson/SnowbreakAutoAssistant' }
         ],
