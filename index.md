@@ -8,7 +8,7 @@ hero:
   tagline: 在这寻找你想要的答案
   image:
     src: /asset/hero.png
-    alt: Logo
+    alt: logo
   actions:
     - theme: brand
       text: 开始使用
@@ -18,11 +18,14 @@ hero:
       link: /issue/Q&A
 
 features:
-  - title: 🎯 日常收菜
+  - icon: 🎯
+    title: 日常收菜
     details: 📦 材料副本 / 🧩 角色碎片 / ⚔️ 拟境扫荡 / 🛒 商店购买
-  - title: 🎮 工具辅助
+  - icon: 🎮
+    title: 工具辅助
     details: 🎣 钓鱼 / 💝 猜心对局 / 🔍 信源解析 / 💧 心动水弹
-  - title: ⌨️ 实时触发器
+  - icon: ⌨️
+    title: 实时触发器
     details: ⭐ 自动采集 / ⚡ 妮塔E自动qte
 ---
 
