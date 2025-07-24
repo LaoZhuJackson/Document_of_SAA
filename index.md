@@ -7,7 +7,7 @@ hero:
   text: "更适合中国宝宝体质"
   tagline: 在这寻找你想要的答案
   image:
-    src: /asset/hero.png
+    src: /hero.png
     alt: logo
   actions:
     - theme: brand
