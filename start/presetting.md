@@ -1,7 +1,7 @@
 # 前置设置
 ## 游戏设置
 * 如果你的屏幕是`16:9`，不论你是1080p，2k，4k，一律在游戏中设置`无边框全屏`
-![screen_setting.png](/feature/img/screen_setting.png)
+![screen_setting.png](/start/img/screen_setting.png)
 * 如果你的屏幕是`曲面屏`或者是`带鱼屏`，窗口化游戏，游戏内选择1920*1080，如果还是用不了，无解
 ## SAA软件设置
 * 软件启动时检查更新：建议开启，在版本更新时获取新的活动坐标，这个坐标需要琉璃维护，更新不一定及时
@@ -10,6 +10,6 @@
 * 展示运行时窗口截图：非必要时别打开，一般普通用户用不上
 * 保存缩放比例：建议关闭
 * 自动缩放比例：建议打开，SAA自动帮你缩放调位
-![screen_setting.png](/feature/img/saa_setting.png)
+![screen_setting.png](/start/img/saa_setting.png)
 * 代理设置：要是开了梯子就把梯子的端口填上，如果没有梯子则置空
-![screen_setting.png](/feature/img/saa_setting2.png)
+![screen_setting.png](/start/img/saa_setting2.png)

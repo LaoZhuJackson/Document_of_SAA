@@ -1,11 +1,11 @@
 # 工具界面功能介绍
 ## 钓鱼
 前往新星开拓任意钓点，站在如图能显示`F`的位置
-![钓点](/feature/img/fishingpoint.png)
+![钓点](/start/img/fishingpoint.png)
 
 配置钓鱼模式,钓鱼按键,钓鱼次数,鱼饵
 使用SAA点击开始钓鱼
-![SAA钓鱼](/feature/img/saafishing.png)
+![SAA钓鱼](/start/img/saafishing.png)
 ::: warning 注意
 * 使用前先阅读钓鱼页面对应的`提示`
 * 无需担心切屏出去尘白进入地图页，SAA能处理并自动返回，然后开始钓鱼
@@ -13,27 +13,27 @@
 :::
 ## 常规行动
 该工具主要用于完成凭证20次常规行动周常任务，不消耗体力重复刷指定次数实战训练第一关
-![routine.png](/feature/img/routine.png)
+![routine.png](/start/img/routine.png)
 ::: warning 注意
 * 在SAA设置好游戏的疾跑方式是`切换疾跑`还是`长按疾跑`
 * 在看板娘界面点击`开始行动`
 :::
 ## 信源研析
 来到`基地 -> 小情报官`位置，进入信源解析界面
-![信源研析界面](/feature/img/pieces2.png)
+![信源研析界面](/start/img/pieces2.png)
 在SAA中输入对应的嵌片数量，点击开始拼图即可开始
-![SAA信源研析](/feature/img/pieces3.png)
+![SAA信源研析](/start/img/pieces3.png)
 ::: warning 注意
 * 本功能只提供解决方案，因为实现不了拖动，无法自动拼
 * 需要手动输入当前拥有的各个拼图数量
 :::
 ## 心动水弹
 进入`基地 -> 温泉中心`到如图能看到`F`的位置
-![心动水弹](/feature/img/water1.png)
+![心动水弹](/start/img/water1.png)
 （可选）点F进入水弹界面选人
-![心动水弹选人](/feature/img/water2.png)
+![心动水弹选人](/start/img/water2.png)
 SAA心动水弹选择连胜次数开射
-![SAA心动水弹](/feature/img/water3.png)
+![SAA心动水弹](/start/img/water3.png)
 ::: warning 注意
 * 站在水弹入口位置后再点开始 
 * SAA上的两个置信度参数尽量别动，识别不正确的时候可以适当调低一些
@@ -62,9 +62,9 @@ SAA心动水弹选择连胜次数开射
 :::
 ## 按摩（功能未完成）
 进入`基地 -> 疗愈中心 -> 健康管理手册`到如图能看到`F`的位置
-![按摩](/feature/img/massage1.png)
+![按摩](/start/img/massage1.png)
 SAA选人开按
-![SAA按摩](/feature/img/massage3.png)
+![SAA按摩](/start/img/massage3.png)
 ::: warning 注意
 * 此功能还没开发完,不要使用
 
@@ -72,10 +72,10 @@ SAA选人开按
 :::
 ## 猜心对局
 进入`基地 -> 暖调闲聚`到如图能看到`F`的位置
-![猜心对局](/feature/img/suspect1.png)
+![猜心对局](/start/img/suspect1.png)
 
 在SAA中设置好模式、刷取次数、是否开启倍速，然后点击`开始喝酒`
-![SAA猜心对局](/feature/img/suspect2.png)
+![SAA猜心对局](/start/img/suspect2.png)
 ::: warning 注意
 * 两种模式均无策略,目的均是为了快速结束对局刷下一把
 

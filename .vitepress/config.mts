@@ -37,10 +37,11 @@ export default defineConfig({
           {
             text: '开始使用',
             items: [
-              { text: '前置设置', link: '/feature/presetting' },
-              { text: '日常收菜', link: '/feature/daily' },
-              { text: '工具辅助', link: '/feature/tools' },
-              { text: '实时触发器', link: '/feature/trigger' }
+              { text: '软件安装', link: '/start/install' },
+              { text: '前置设置', link: '/start/presetting' },
+              { text: '日常收菜', link: '/start/daily' },
+              { text: '工具辅助', link: '/start/tools' },
+              { text: '实时触发器', link: '/start/trigger' }
             ]
           },
           {
@@ -72,10 +73,11 @@ export default defineConfig({
             text: '开始使用',
             collapsed: false,
             items: [
-              { text: '前置设置', link: '/feature/presetting' },
-              { text: '日常收菜', link: '/feature/daily' },
-              { text: '工具辅助', link: '/feature/tools' },
-              { text: '实时触发器', link: '/feature/trigger' }
+              { text: '软件安装', link: '/start/install' },
+              { text: '前置设置', link: '/start/presetting' },
+              { text: '日常收菜', link: '/start/daily' },
+              { text: '工具辅助', link: '/start/tools' },
+              { text: '实时触发器', link: '/start/trigger' }
             ]
           },
           {

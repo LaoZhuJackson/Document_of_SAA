@@ -4,17 +4,17 @@
 ### 官服&b服
 `新版启动器`获取游戏路径
 启动器 → 设置 → 游戏 → 游戏安装目录
-![配置图](/feature/img/newlauncher.png)
+![配置图](/start/img/newlauncher.png)
 ***
 `老版启动器`获取游戏路径
 启动器 → 设置 → 游戏内容 → 存储位置 → 查看
-![配置图](/feature/img/oldlauncher.png)
+![配置图](/start/img/oldlauncher.png)
 ### 国际服
 steam → 库 → 右键 → 管理 → 浏览本地文件
-![配置图](/feature/img/steam.png)
+![配置图](/start/img/steam.png)
 ### 填入SAA
 在SAA中选择刚才的路径，这里选择的是`文件夹`路径，不要再去傻傻找`.exe`了
-![SAA](/feature/img/log_in.png)
+![SAA](/start/img/log_in.png)
 ::: warning 注意
 * 需要之前登录成功过账号
 * 如果游戏更新了大概率还需要打开启动器更新（目前还没测试）
@@ -24,17 +24,17 @@ steam → 库 → 右键 → 管理 → 浏览本地文件
 1. 邮件一键领取
 2. 新星开拓鱼饵一键领取
 3. 收取信源断片
-![配置图](/feature/img/supplies.png)
+![配置图](/start/img/supplies.png)
 ## 商店购买
 选择要购买的商品，一般至少要在商店买一个东西才够每日的活跃度，可勾选不同四星人物碎片和四星武器(点箭头展开)
-![日常商店](/feature/img/buy.png)
+![日常商店](/start/img/buy.png)
 ::: warning 注意
 * 商店涉及大面积文字ocr，性能不足的电脑可能会感到稍微变慢，这是正常现象
 * 商店也是最容易出现ocr识别出错的地方，如果未按预期购买可以在设置中打开“展示ocr识别结果”，在左边的替换表中添加替换规则
   :::
 ## 刷体力
 目前只支持刷活动材料本，可以勾选使用设定期限内的体力药，勾选后在刷体力之前会先自动使用体力药，刷完体力后会自动领取活动任务奖励
-![刷体力](/feature/img/power.png)
+![刷体力](/start/img/power.png)
 ::: warning 注意
 * 每个游戏版本大更新SAA会自动拉取[gitee上的坐标信息](https://gitee.com/laozhu520/auto_chenbai/blob/main/update_data.txt)，该信息由开发人员维护（可能延迟）
 * 更新的信息格式如下，如果你知道如何在gitee推送，也可以自行推送更新信息，接收推送后所有SAA用户都会收到对应更新。`下列坐标必须是16:9的比例下测量的，如果不是16:9需要做换算`
@@ -46,14 +46,14 @@ v2.0.3  # SAA版本号
 * 屏幕宽度：如果你的屏幕是2560*1440，那就填2560，如果是1920*1080就填1920
 * “材料”左上角坐标(x1,y1)，右下角坐标(x2,y2)
 * “深渊”左上角坐标(x1,y1)，右下角坐标(x2,y2)，如下图所示，新版本SAA已经`没有这个页面`，但是可以用来理解坐标具体指的是什么
-![坐标示意图](/feature/img/update_tutorial.png)
+![坐标示意图](/start/img/update_tutorial.png)
 * `catid`和`id`的获取方法
-![获取方法](/feature/img/catid&id.png)
+![获取方法](/start/img/catid&id.png)
 :::
 ## 角色碎片
 按照角色1-4刷取对应角色碎片,可勾选是否使用记忆嵌片，`建议先手动刷一次要刷的角色使角色在首页，SAA刷首页的角色准确度较高`
 
-![角色碎片](/feature/img/pieces.png)
+![角色碎片](/start/img/pieces.png)
 ::: warning 注意
 此处输入的文本为子字符串匹配：如需刷取 **[狂诗]** 则填入 **狂，诗，狂诗** 皆可
 :::

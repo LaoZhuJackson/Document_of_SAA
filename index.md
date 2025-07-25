@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 开始使用
-      link: /feature/presetting
+      link: /start/install
     - theme: alt
       text: 常见问题
       link: /issue/Q&A
