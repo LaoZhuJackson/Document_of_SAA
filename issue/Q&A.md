@@ -7,7 +7,7 @@
 * 去交流群里找琉璃对线
 * 遇到了全新的问题→提一个[issue](https://github.com/LaoZhuJackson/SnowbreakAutoAssistant/issues)
   :::
-## 无法访问尘白公告api，无法访问gitee获取坐标更新 <Badge type="tip" text="v2.0.3之前版本" />
+## 无法访问尘白公告api，无法访问gitee获取坐标更新 <Badge type="tip" text="v2.0.3之后版本" />
 ![proxy_error.png](/issue/img/proxy_error.png)
 ::: tip 🤔回答
 出现这个报错是因为你电脑开了代理而没有在SAA上设置代理端口导致SAA无法访问这两个网站
