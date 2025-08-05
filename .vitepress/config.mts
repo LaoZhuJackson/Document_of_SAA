@@ -65,8 +65,7 @@ export default defineConfig({
             text: '简介',
             collapsed: false,
             items: [
-              { text: '什么是SAA', link: '/what_is_saa' },
-              { text: '社区', link: '/community' }
+              { text: '什么是SAA', link: '/what_is_saa' }
             ]
           },
           {
